@@ -422,7 +422,7 @@ a:after {
     border-radius: 6px;
 }
 .btn-primary {
-    color: #fff;
+   color: #fff;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     background-color: #3fb2f4;
     background-image: -moz-linear-gradient(top,#3fcaf4,#3f8ef4);

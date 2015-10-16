@@ -438,6 +438,41 @@ a:after {
 	line-height: 1.33;
 	border-radius: 6px;
 }
+.btn {
+	color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    background-color: #3fb2f4;
+    background-image: -moz-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#3fcaf4),to(#3f8ef4));
+    background-image: -webkit-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: -o-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: linear-gradient(to bottom,#3fcaf4,#3f8ef4);
+  /* background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9); */
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size:25px;
+}
+.btn:hover {
+      background-color: #3f8ef4;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color:#fff;
+}
 
 .badge {
 	text-shadow: none;
@@ -589,6 +624,8 @@ iframe{border: 0}
         color: #CECECE !important;
         font-size: 23px !important;
         margin: 0 !important;
+	    padding-top: 11px;
+        font-weight: 300;
     }
     .pure-menu-heading:hover{
         color: #fff !important;
@@ -785,8 +822,8 @@ iframe{border: 0}
     border: 1px solid #FFEDED;
     padding: 33px;
     height: 221px;
-	width:365.25px;
-	height:249px;
+	/* width:365.25px; 
+	height:249px;*/
 }
 .foursteps{
 	background: rgba(29, 29, 29, 1);
@@ -808,10 +845,12 @@ iframe{border: 0}
 		background: rgba(255, 255, 255, 0);
 	}
     .bb-aspect{
-        padding: 13px;
+        padding: 18px;
         height: 265px;
         margin: 30px;
 		transition: 0.3s;
+		width: 370px;
+		
     }
 	.bb-aspect h4{
 		transition: 0.3s;
@@ -830,6 +869,7 @@ iframe{border: 0}
 		}
 	.bb-lean{
 		cursor: pointer;
+		padding-top: 35px;
 	}
     .home-device-bg{
         background: #DDDDDD;
@@ -1041,3 +1081,4 @@ iframe{border: 0}
 		}
 	
 } /* end of small device css
+
