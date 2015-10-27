@@ -48,6 +48,7 @@
 
 #content h3,#syllabus h4,#sampleVideo h3{
   color:#a7d154;
+  font-weight:500;
 }
 #faq li{
   padding:6px 10px;
