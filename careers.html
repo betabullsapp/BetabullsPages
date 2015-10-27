@@ -51,7 +51,49 @@ color:skyblue;
 a{
 color:skyblue;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+h3 {
+    font-size: 24.5px;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}
+h2 {
+    font-size: 31.5px;
+}
+.btn1 {
+	color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    background-color: #3fb2f4;
+    background-image: -moz-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#3fcaf4),to(#3f8ef4));
+    background-image: -webkit-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: -o-linear-gradient(top,#3fcaf4,#3f8ef4);
+    background-image: linear-gradient(to bottom,#3fcaf4,#3f8ef4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size:14px;
+}
+.btn1:hover {
+      background-color: #3f8ef4;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color:#fff;
+}
 </style>
   </head>
 
@@ -90,24 +132,38 @@ BULLS</span></a>
         </div>
         <div class="navbar-collapse collapse">
 		
-          <ul class="nav navbar-nav navbar-right">
-            <li typeof="sioc:Page" about="#" class="">
-						<a href="how-it-works.html" property="dc:title">HOW IT WORKS</a>
+           <ul class="nav navbar-nav navbar-right">
+<li typeof="sioc:Page" class="">
+  						<a href="enterprise.html" property="dc:title">HOME</a>
+  					</li>
+				<li class="" typeof="sioc:Page" >
+  						<a href="bigdata.html" property="dc:title">SERVICES </a>        
+  					</li>
+  				<li typeof="sioc:Page" class="">
+  					<a href="product.html" property="dc:title">PRODUCTS</a>
+  				</li>
+
+					<!--li typeof="sioc:Page" class="">
+						<a href="#" property="dc:title">MOBILE APP DEVLOPMENT</a>
+					</li-->
+
+					<li typeof="sioc:Page" class="">
+						<a href="portfolio.html" property="dc:title">OUR WORKS</a>
 					</li>
-				
-					<li typeof="sioc:Page" about="#" class="">
-						<a href="pricing.html" property="dc:title">PRICING</a>
+					<li class="" typeof="sioc:Page" >
+						<a href="sixsigma.html" property="dc:title">TRAINING </a>
+					
 					</li>
-				
-					<li typeof="sioc:Page" about="#" class="">
-						<a href="faq.html" property="dc:title">FAQ</a>
+					<li typeof="sioc:Page" class="">
+						<a href="staffing.html" property="dc:title">STAFFING</a>
 					</li>
-				
-					<li typeof="sioc:Page" about="#" class="">
-						<a href="blog.html" property="dc:title">BLOG</a>
+					<li typeof="sioc:Page" class="">
+						<a href="careers.html" property="dc:title">CAREERS</a>
 					</li>
-            <li><a href="#contact">
-					<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
+					<!-- DocPad menu end -->
+
+					<li><a href="#contact">
+						<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
 					</a>
 				</li>
           </ul>
@@ -147,18 +203,20 @@ BULLS</span></a>
 	}
 	</style>
 <div class="container">
-	<h2><b>CAREERS</b></h2>
-	<h3>We are a young and vibrant company highly focused on being a change agent for our clients. And, all our employees reflect the same ethos and spirit. This collective belief and action have stood us in good stead and have made us what we are today, a great success. </h3>
 
-<h3>While great benefits come standard with the job, our culture- marked by enterprise, innovation & integrity- is what has excited our employees the most.
+ <div class="careers">
+	<h2><b>CAREERS</b></h2>
+	<h3 align="justify">We are a young and vibrant company highly focused on being a change agent for our clients. And, all our employees reflect the same ethos and spirit. This collective belief and action have stood us in good stead and have made us what we are today, a great success. </h3>
+
+<h3 align="justify">While great benefits come standard with the job, our culture- marked by enterprise, innovation & integrity- is what has excited our employees the most.
 If you are interested to know more about available opportunities, please email us at <a href="mailto:hr@betabulls.com">hr@betabulls.com</a> with a copy of your resume.</h3>
 	
 	
 	<div style="margin-top: 40px;">  
-								<a href="careersopportunities" class="btn btn-primary"> Current Opportunities </a> 
+								<a href="#" class="btn1 btn-primary"> Current Opportunities </a> 
 							</div>
 	
-	
+	</div>
 	</div>
 	
 	
@@ -190,7 +248,7 @@ If you are interested to know more about available opportunities, please email u
             <br/>
             <div class="pure-u-1 center">
                 &copy;2014 BetaBulls <span class="muted">*</span>&nbsp;
-                <a href="/pages/privacy">Privacy Policy</a>
+                <a href="privacy.html">Privacy Policy</a>
             </div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
 	</div><!-- Footer -->
