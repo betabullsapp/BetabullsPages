@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>PRODUCTS</title>
+    <title>HSA Planner</title>
 	<meta name="description" content="Lean MVP development &amp; Co-founder services for Start-ups.				" />
 	<meta name="keywords" content="Lean MVP development services, Co-founder services, Start-ups, BetaBulls, Beta Bulls, MVP, Lean UX, Lean Startup, Lean MVP" />
 	<meta name="author" content="BetaBulls" />
@@ -25,7 +25,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
 	<link href="assets/css/style1.css" rel="stylesheet">
     <link href="assets/css/pure-min.css" rel="stylesheet">
-	<link href="assets/css/newStyles.css" rel="stylesheet">
+	 <link href="assets/css/less-compiled.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,39 +33,59 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-<style type="text/css">
- body{
-    background-color: #e0e0e0;
-   } 
+	
+	<style type="text/css">
+		body{
+		background-color: #e0e0e0;
+	}
+	#dg {
 
-
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+		
 .post {
-  padding: 60px 0 91px 0;
+  padding: 10px 0 25px 0;
 }
-hr{
-  border-top: 1px solid #ccc !important;
+p{
+	text-align: justify;
 }
-.jot-frame{
- margin: 0px 0 0 -25px !important;
+.pure-menu li a {
+  padding: 5px 10px;
 }
-a, a:visited,a:link,a:active, a:hover{
-  text-decoration: none;
+.bb-aspect{
+	height: 250px;
 }
-.sidebarNavgation h3,.mianSideHeading{
+.pic-image{
+	height:450px !important;
+}
+#webApplications .pic-image{
+	height:auto !important;
+}
+#webApplications .pic{
+ max-width: 450px !important;
+}
+   
+#fixedForBetaBulls img{
+	position: fixed;
+    top: 113px;
+    right: -1px;
+    color: red;
+    height: 180px;
+}
+#pageContented{
+	margin-top: 35px;
+}
+h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
-  font-weight: 300;
-  color: #333;
-    font-size: 24.5px;
-    line-height: 40px;
-      margin: 10px 0 0 0;
-
+    font-weight: 300;
+    color: #333;
 }
-.headerSideBar a:hover{
-	color:#000000;
-
+h1 {
+    font-size: 38.5px;
 }
 
- </style>
+	</style>
   </head>
 
   <body>
@@ -104,110 +124,93 @@ BULLS</span></a>
         <div class="navbar-collapse collapse">
 		
           <ul class="nav navbar-nav navbar-right">
-<li typeof="sioc:Page" class="">
-  						<a href="enterprise.html" property="dc:title">HOME</a>
-  					</li>
-
-
-
-  					<li class="" typeof="sioc:Page" >
-  						<a href="bigdata.html" property="dc:title">SERVICES </a>        
-  					</li>
-  				
-
-  				<li typeof="sioc:Page" class="">
-  					<a href="product.html" property="dc:title">PRODUCTS</a>
-  				</li>
-
-					<!--li typeof="sioc:Page" class="">
-						<a href="#" property="dc:title">MOBILE APP DEVLOPMENT</a>
-					</li-->
-
-					<li typeof="sioc:Page" class="">
+            <li typeof="sioc:Page" about="#" class="">
+						<a href="enterprise.html" property="dc:title">HOME</a>
+					</li>
+				
+					<li typeof="sioc:Page" about="#" class="">
+						<a href="bigdata.html" property="dc:title">SERVICES</a>
+					</li>
+				
+					<li typeof="sioc:Page" about="#" class="">
+						<a href="product.html" property="dc:title">PRODUCTS</a>
+					</li>
+				
+					<li typeof="sioc:Page" about="#" class="">
 						<a href="portfolio.html" property="dc:title">OUR WORKS</a>
 					</li>
-					<li class="" typeof="sioc:Page" >
-						<a href="sixsigma.html" property="dc:title">TRAINING </a>
-					
+					<li typeof="sioc:Page" about="#" class="">
+						<a href="sixsigma.html" property="dc:title">TRAINING</a>
 					</li>
-					<li typeof="sioc:Page" class="">
+					<li typeof="sioc:Page" about="#" class="">
 						<a href="staffing.html" property="dc:title">STAFFING</a>
 					</li>
-					<li typeof="sioc:Page" class="">
+					<li typeof="sioc:Page" about="#" class="">
 						<a href="careers.html" property="dc:title">CAREERS</a>
 					</li>
-					<!-- DocPad menu end -->
-
-					<li><a href="#contact">
-						<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
+            <li><a href="#contact">
+					<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
 					</a>
 				</li>
           </ul>
+
         </div><!--/.nav-collapse -->
       </div>
     </div>
-<div id="fixedForBetaBulls">
-			<a href="#"><img src="img/ForEnterprise.png" class="img-responsive" ></a>
+<!-- <div id="fixedForBetaBulls">
+			<a href="enterprise.html"><img src="img/ForEnterprise.png" class="img-responsive" ></a>
+</div> -->
+	
 
 
-		</div>
-   	<div class="page-content">
-		
-		<br>
-		<div class="post">
+	<article id="page" class="page">
+	<div class="page-content"><style>
+	
+		.you-conquer{
+			padding: 33px 0 0;
+			margin: 77px auto 0;
+			height: 146px;
+			width: 1001px;
+			display: block;
+		}
+	</style>
 
+	<div id="blue">
+		<div class="pure-g-r">
+			<div class="pure-u-1 center">
+				<h4><b>OUR LATEST WORKS</b></h4>				
+			</div><!-- pure-u-1 center -->
+		</div><!-- pure-g-r -->
+	</div><!-- blue --> 
+    <div id="dg" style="text-align:left">
+		<section class="wrapper cl">
+			<div class="pure-g-r">
+			<div class="pure-u-1">
+				<div class="pure-u-1-1">
+					<div id="anImages">
+				<img src="img/ddcWebFlatBrow.png" class="img-responsive">
 
+			</div>
+			
 
-			<div>
+			</div>
+			<div class="pure-u-1-1">
+			<div id="pageContented">
+				<h1>HSA Planner</h1>
+				<p align="justify" style="font-weight:100">HSA Planner is a suite of tools, calculators and education to help healthcare account holders make informed decisions around the healthcare spending and savings.  </p>
 
-				<!-- start contact us -->
-				<div id="contact_marker"></div>
-							<div class="pure-g-r trainingMargin">
-            <div class="pure-u-1">
-        <!--div class="mod row" style="display: inline-flex;"-->
-					<!-- contact us headline -->
-				  <!--div class="col-md-3 col-sm-3 sidebar" style="width: 25%; padding-right: 15px;"-->
-          <div class="pure-u-1-4 headerSideBar">
-						<!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
-						<div class="side-nav sidebar-block sidebarNavgation">
-
-							<h3>Products</h3>
-              <hr>
-              <ul style="color:#000000; font-size:12px;list-style:none;font-weight:normal;margin:0 0 10px 0px;">
-								<li><a id="selected" href="product" style="text-decoration:none;font-weight:800;color:orangered;"> <i style="color:green;" class="fa fa-chevron-right"></i> REAL RECS</a></li>
-								<li><a href="productAtsPlus" style="text-decoration:none;"> <i class="fa fa-chevron-right"></i> ATS PLUS</a></li>
-								
-
-							</ul>
-							
-						</div>                                 
-					</div>
-	<!--div class="col-md-9 col-sm-9 main-column two-columns-left" style="width: 75%;"-->
-         <div class="pure-u-2-3 headerSideBar">
-						<div class="row newStyleBootstrap">
-
-							<!--h2> Products</h2-->
-
-<h3 class="mianSideHeading">RealRecs</h3>
-<p>Typical recommendation engines analyze  past history and provide recommendations as an offline process. However, in many situations businesses need to generate recommendations based on user activity in real time such as job recommendations based on resume or recommended articles based on reading history</p> 
-<p>RealRecs is a real-time recommendation engine that can generate content based recommendation as well as social, collaborative filtering based recommendation using open source technologies. </p>
-<p>It is true that finding the right people with the knowledge, talent and skills is not an easy task at all and it can’t be done overnight. Betal Bulls is recognized as one of the leaders in the field of IT staffing that offers full range of workforce solutions. We can help you to connect to the top IT talent you need while saving money and time. </p>
-
-
-
-
-						</div>       
-
-					</div>		
+				 <p style="margin-bottom:10px; font-weight:100;"><i class="fa fa-laptop"></i> Web Application</p>
+        <a href="https://www.hsaplanner.com/" target="_blank" style="color:#f85c37"><i class="fa fa-link" style="color:#f85c37"></i> Web Site</a><br>
+        
+    </div>
 				</div>
 			</div>
-				<!-- /end contact us -->
-
-			</div>
 		</div>
+		
+	</section>
+	</div>  	
+</article>
 
-
-	</div>
 
 	
 	<!-- FOOTER -->
@@ -231,7 +234,7 @@ BULLS</span></a>
             <br/>
             <div class="pure-u-1 center">
                 &copy;2014 BetaBulls <span class="muted">*</span>&nbsp;
-                <a href="/pages/privacy">Privacy Policy</a>
+                <a href="privacy.html">Privacy Policy</a>
             </div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
 	</div><!-- Footer -->
