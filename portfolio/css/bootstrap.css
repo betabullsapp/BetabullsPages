@@ -162,6 +162,7 @@ a:hover {
 .row {
   margin-left: 13px;
   *zoom: 1;
+  margin-top:30px;
 }
 
 .row:before,
@@ -624,6 +625,7 @@ h3 {
 h4 {
   font-size: 18px;
   line-height: 20px;
+  margin-top:30px;
 }
 
 h5 {
@@ -4548,7 +4550,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .thumbnails {
-  margin-left: -20px;
+  margin-left: -66px;
   list-style: none;
   *zoom: 1;
 }
@@ -4570,7 +4572,7 @@ input[type="submit"].btn.btn-mini {
 .thumbnails > li {
   float: left;
   margin-bottom: 102px;
-  margin-left: 38px;
+  margin-left: 61px;
       width: 350px;
     height: 250px;
 	margin-top:20px;
