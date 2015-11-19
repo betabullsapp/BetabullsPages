@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Privacy Policy | Lean MVP development &amp; Co-founder services for Start-ups.</title>
+    <title>Quotes Of The Week | Lean MVP development &amp; Co-founder services for Start-ups.</title>
 	<meta name="description" content="Lean MVP development &amp; Co-founder services for Start-ups.				" />
 	<meta name="keywords" content="Lean MVP development services, Co-founder services, Start-ups, BetaBulls, Beta Bulls, MVP, Lean UX, Lean Startup, Lean MVP" />
 	<meta name="author" content="BetaBulls" />
@@ -26,7 +26,11 @@
 	<link href="assets/css/style1.css" rel="stylesheet">
     <link href="assets/css/pure-min.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
-
+   <link href="assets/css/style_common.css" rel="stylesheet">
+    <link href="assets/css/blog.css" rel="stylesheet">
+	 <link href="assets/css/blogstyle.css" rel="stylesheet">
+	 <link href="assets/css/newbootstrap.min.css" rel="stylesheet">
+	 <link href="assets/css/quotes.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -41,27 +45,130 @@
     color: red;
     height: 180px;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 300;
-    color: #333;
+
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+  float:right;
 }
-h3 {
-    font-size: 24.5px;
-	    padding-right: 472px;
+.pagination > li {
+  display: inline;
 }
-h1, h2, {
-    line-height: 40px;
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #337ab7;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+    font-size: 20px;
+  font-weight: 500;
 }
-h2 {
-    font-size: 31.5px;
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
 }
-p {
-    line-height: 26px;
-    margin-bottom: 25px;
-    font-weight:100;
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
 }
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 3;
+  color: #23527c;
+  background-color: #eeeeee;
+  border-color: #dddddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777777;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+p.adm {
+  color: #868f98;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: left;
+  padding: 1em 0;
+}
+ #share-buttons img {
+width: 36px;
+height:39px;
+padding: 3px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+p{
+font-weight:300;
+}
+
 </style>
+	
   </head>
 
   <body>
@@ -99,7 +206,7 @@ BULLS</span></a>
         </div>
         <div class="navbar-collapse collapse">
 		
-           <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <li typeof="sioc:Page" about="#" class="">
 						<a href="how-it-works.html" property="dc:title">HOW IT WORKS</a>
 					</li>
@@ -120,41 +227,132 @@ BULLS</span></a>
 					</a>
 				</li>
           </ul>
-
         </div><!--/.nav-collapse -->
       </div>
     </div>
-<!-- <div id="fixedForBetaBulls">
+<div id="fixedForBetaBulls">
 			<a href="enterprise.html"><img src="img/ForEnterprise.png" class="img-responsive" ></a>
-</div> -->
+</div>
 	
-<article id="page" class="page">
-	<div class="page-content"><div class="pure-u-1 post">
-<h2>Privacy Policy</h2>
-
-<p>(last update: March 2014)</p>
-<h3>Information we gather</h3>
-<p>The following information is gathered from our website visitors:<br />IP address</p>
-
-<h3>How we use the information we gather</h3>
-<p>We use the information to enhance your visitor experience.</p>
-
-<h3>The people that are given access to this information</h3>
-<p>Your personal information is accessible by</p>
-
-<h3>The security measures we have in place to protect your personal information</h3>
-<p>To safeguard your personal information, we</p>
-
-<h3>Our use of cookies</h3>
-<p>Our website makes use of cookies which are small digital files that are stored in your web browser that enable us to track your return visits to our website.</p>
-<p>Your browser settings may allow you to block these cookies, but we recommend you have them enabled to help us personalise your experience of our website.</p>
-<p>Additionally, 3rd party advertisers on our site may use cookies for tracking purposes.</p>
-<p>Google, as a third party vendor, uses cookies to serve ads.</p>
-<p>Google's use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet.</p>
-<p>Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
 
 
-</div></div>
+<article id="post" class="post">
+<h1>
+Quotes of the Week
+</h1>
+ 
+<div id="share-buttons">
+ 
+<a href="/cdn-cgi/l/email-protection#625d311700080701165f310b0f120e0742310a03100742201716160d0c1144030f1259200d061b5f2b475052110315475052160a0b11475052030c06475052160a0dXught%20of%20you!%20 http://betabulls.com/posts/quotes/nextquoten6">
+<img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email"/>
+</a>
+ 
+<a href="http://www.facebook.com/sharer.php?url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook"/>
+</a>
+ 
+<a href="https://plus.google.com/share?url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google"/>
+</a>
+ 
+<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn"/>
+</a>
+ 
+<a href="http://reddit.com/submit?url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit"/>
+</a>
+ 
+<a href="http://www.stumbleupon.com/submit?url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/stumbleupon.png" alt="StumbleUpon"/>
+</a>
+ 
+<a href="https://twitter.com/share?url=http://betabulls.com/posts/quotes/nextquoten6" target="_blank">
+<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter"/>
+</a>
+</div>
+ 
+ 
+<p class="adm">Posted by <span>Admin</span> | November 06, 2015</p>
+<div class="testimonials">
+<blockquote>
+<p>Knowledge is power. Knowledge shared is power multiplied.</p>
+<cite>
+<span class="author">– Robert Noyce,</span> Intel
+</cite>
+</blockquote>
+<blockquote>
+<p>Don’t be encumbered by history.go off and do something wonderful.</p>
+<cite>
+<span class="author">– Robert Noyce,</span> Intel
+</cite>
+</blockquote>
+<blockquote>
+<p>It's better to be the head of a chicken than the tail of a cow.</p>
+<cite>
+<span class="author">– Stan Shih,</span>Acer
+</cite>
+</blockquote>
+<blockquote>
+<p>Innovation distinguishes between a leader and a follower.</p>
+<cite>
+<span class="author">- Steve Jobs ,</span> Apple
+</cite>
+</blockquote>
+<blockquote>
+<p>Love cures people - both the ones who give it and the ones who receive it.</p>
+<cite>
+<span class="author">– Karl A. Menninger,</span> Psychiatrist
+</cite>
+</blockquote>
+<blockquote>
+<p>One does not fall in love; one grows into love, and love grows in him.</p>
+<cite>
+<span class="author">– Karl A. Menninger ,</span> Psychiatrist
+</cite>
+</blockquote>
+<blockquote>
+<p>What's done to children, they will do to society.</p>
+<cite>
+<span class="author">– Karl A. Menninger,</span> Psychiatrist
+</blockquote>
+<blockquote>
+<p>Hope is a necessity for normal life and the major weapon against the suicide impulse.</p>
+<cite>
+<span class="author"> - Karl A. Menninger,</span> Psychiatrist
+</cite>
+</blockquote>
+<blockquote>
+<p>“It’s better to be a pirate than to join the navy.”</p>
+<cite>
+<span class="author">– Steve Jobs,</span>  Apple
+</cite>
+</blockquote>
+<blockquote>
+<p> “Stay hungry. Stay foolish.”</p>
+<cite>
+<span class="author">–  Steve Jobs,</span> Apple
+</cite>
+</blockquote>
+</div>
+<br><br>
+<div>
+<ul class="pagination">
+<li class="disabled">
+<a href="#" aria-label="Previous" style="cursor: default;">
+<span aria-hidden="true">&laquo;</span>
+</a>
+</li>
+<li class="active"><a href="/posts/quotes">1</a></li>
+ 
+<li class="disabled">
+<a href="#" aria-label="Next" style="cursor: default;">
+<span aria-hidden="true">&raquo;</span>
+</a>
+</li>
+</ul>
+</div>
+ 
 </article>
 
 
@@ -179,7 +377,7 @@ BULLS</span></a>
 			</div><!-- pure-u-1 center -->
             <br/>
             <div class="pure-u-1 center">
-                &copy;2014 BetaBulls <span class="muted">*</span>&nbsp;
+                 &copy;2014 BetaBulls <span class="muted">*</span>&nbsp;
                 <a href="privacy.html">Privacy Policy</a>
             </div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
