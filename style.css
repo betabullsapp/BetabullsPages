@@ -148,7 +148,49 @@ a:after {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
+/* --start-- */
 
+#headerwrap1 {
+	background: url(images/banner.png) no-repeat center top;
+	margin-top: 73px;
+	padding-top: 19px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 430px;
+	width: 100%;
+
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap1 h1 {
+	margin-top: 100px;
+    margin-bottom: 18px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+    line-height: 77px;
+}
+
+#headerwrap1 h2 {
+    margin: 0;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* --end-- */
 /* Dark Grey Wrap */
 #dg {
 	background: #e0e0e0;
@@ -882,10 +924,76 @@ iframe{border: 0}
             color: #7b7b7b;
         }
 
-#betabulls-svg-icon:hover{
-    opacity: 1;
+ #betabulls-svg-icon:hover{
+    opacity: 1; 
 }
-
+  /* bb1 */
+  .bb-aspect1, .foursteps{
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid #FFEDED;
+    padding: 33px;
+    height: 221px;
+	/* width:365.25px; 
+	height:249px;*/
+}
+.foursteps{
+	background: rgba(29, 29, 29, 1);
+	border: 1px solid #88ADD6;
+    margin: 33px;
+	height: 272px;
+	color: #fff;
+}
+	.foursteps h4{
+		color: #fff;
+	}
+	.foursteps:hover{
+		margin:33px 67px 66px;
+	}
+	.foursteps:hover, .foursteps:hover h4{
+		transition: 1s;
+		border: 0;
+		padding: 0 0 33px;
+		background: rgba(255, 255, 255, 0);
+	}
+    .bb-aspect1{
+        padding: 18px;
+        height: 265px;
+        margin: 30px;
+		transition: 0.3s;
+		width: 370px;
+		
+    }
+	.bb-aspect1 h4{
+		transition: 0.3s;
+	}
+		.bb-aspect1:hover{
+			padding: 23px;
+			margin: 23px;
+			box-shadow: 7px 7px rgba(211, 211, 211, 0.1);
+		}
+		.bb-aspect1:hover h4{
+			font-size: 19px;
+		}
+		.bb-aspect1:hover .home-icon{
+			height: 39px;
+			width: 39px;
+		}
+	.bb-lean{
+		cursor: pointer;
+		padding-top: 35px;
+	}
+    .home-device-bg{
+        background: #DDDDDD;
+        padding: 66px 33px 13px;
+        border-radius: 33px;
+        margin: 33px;
+        border: 1px solid #E9E9E9;
+    }
+        .home-device-bg a{
+            color: #7b7b7b;
+        }
+		/*---*/
+  
 .navbar-nav{
     margin: 3px 0 0 0 !important;
 }
